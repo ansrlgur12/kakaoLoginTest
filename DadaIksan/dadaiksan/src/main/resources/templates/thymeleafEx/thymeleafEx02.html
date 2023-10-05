@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>상품 데이터 출력 예제</h1>
+
+<div>
+  상점명 : <span th:text="${shopDto.shopName}"></span>
+</div>
+<div>
+  상점 상세 설명 : <span th:text="${shopDto.shopDesc}"></span>
+</div>
+<div>
+  상점 분류 : <span th:text="${shopDto.category}"></span>
+</div>
+</body>
+</html>
