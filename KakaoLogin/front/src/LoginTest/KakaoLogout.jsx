@@ -19,7 +19,7 @@ const KakaoLogout = () => {
     kakaoLogout();
     return(
         <>
-        <h1>로그아웃 완료</h1>
+        <h1>로그아웃 완료!</h1>
         <p>닉네임 : {localStorage.getItem("nickName")}</p>
         <a href={KAKAO_AUTH_URL}>
             <img src={LoginBtn} alt='kakaoLogin' />
