@@ -47,7 +47,7 @@ const LoginFinish = () => {
     }
     return (
         <>
-        <h1>로그인 끝</h1>
+        <h1>로그인 성공</h1>
         <p>닉네임 : {localStorage.getItem("nickName")}</p>
 
         <button onClick={LogOut}>로그아웃</button>
